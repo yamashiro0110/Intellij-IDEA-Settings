@@ -1,9 +1,15 @@
 <keymap version="1" name="Eclipse (Mac OS X) copy" parent="Eclipse (Mac OS X)">
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="shift button143" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+    <mouse-shortcut keystroke="shift button142" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
