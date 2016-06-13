@@ -1,6 +1,11 @@
 <code_scheme name="Default (1)">
-  <option name="RIGHT_MARGIN" value="250" />
+  <option name="GENERATE_FINAL_PARAMETERS" value="true" />
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="JAVA">
+    <option name="ELSE_ON_NEW_LINE" value="true" />
+    <option name="CATCH_ON_NEW_LINE" value="true" />
+    <option name="FINALLY_ON_NEW_LINE" value="true" />
+  </codeStyleSettings>
 </code_scheme>
