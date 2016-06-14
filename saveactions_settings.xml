@@ -5,6 +5,7 @@
         <option value="activate" />
         <option value="organizeImports" />
         <option value="reformat" />
+        <option value="reformatChangedCode" />
       </set>
     </option>
   </component>
