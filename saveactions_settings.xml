@@ -6,6 +6,9 @@
         <option value="organizeImports" />
         <option value="reformat" />
         <option value="reformatChangedCode" />
+        <option value="localCanBeFinal" />
+        <option value="fieldCanBeFinal" />
+        <option value="unqualifiedFieldAccess" />
       </set>
     </option>
   </component>
