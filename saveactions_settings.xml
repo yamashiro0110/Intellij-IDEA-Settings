@@ -11,5 +11,10 @@
         <option value="unqualifiedFieldAccess" />
       </set>
     </option>
+    <option name="exclusions">
+      <set>
+        <option value="build.gradle" />
+      </set>
+    </option>
   </component>
 </application>
