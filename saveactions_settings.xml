@@ -6,6 +6,7 @@
         <option value="organizeImports" />
         <option value="reformat" />
         <option value="reformatChangedCode" />
+        <option value="compile" />
         <option value="localCanBeFinal" />
         <option value="explicitTypeCanBeDiamond" />
         <option value="unqualifiedFieldAccess" />
@@ -13,6 +14,7 @@
     </option>
     <option name="exclusions">
       <set>
+        <option value="(.*)\.properties" />
         <option value="build.gradle" />
       </set>
     </option>
