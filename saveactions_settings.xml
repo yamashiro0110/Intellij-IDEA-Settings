@@ -13,6 +13,7 @@
     </option>
     <option name="exclusions">
       <set>
+        <option value="(.*)\.html" />
         <option value="(.*)\.properties" />
         <option value="build.gradle" />
       </set>
