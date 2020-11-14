@@ -1,0 +1,8 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="Source Code Pro" />
+  </component>
+  <component name="EditorSettings">
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+  </component>
+</application>
