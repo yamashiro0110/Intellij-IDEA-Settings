@@ -136,14 +136,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="*.dart">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="Dart" />
-              <option name="myPluginName" value="Dart" />
-            </plugin>
-          </value>
-        </entry>
         <entry key="*.dcx">
           <value>
             <plugin>
@@ -195,6 +187,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.dockerfile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
             </plugin>
           </value>
         </entry>
@@ -621,14 +621,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="*.log">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="com.intellij.ideolog" />
-              <option name="myPluginName" value="Ideolog" />
-            </plugin>
-          </value>
-        </entry>
         <entry key="*.markdown">
           <value>
             <plugin>
@@ -671,6 +663,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.nginx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="ideanginx9" />
+              <option name="myPluginName" value="nginx Support" />
             </plugin>
           </value>
         </entry>
@@ -866,9 +866,8 @@
         <entry key="*.rs">
           <value>
             <plugin>
-              <option name="myPluginId" value="org.jetbrains.android" />
-              <option name="myPluginName" value="Android" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginId" value="org.rust.lang" />
+              <option name="myPluginName" value="Rust" />
             </plugin>
           </value>
         </entry>
@@ -1042,6 +1041,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.toml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.toml.lang" />
+              <option name="myPluginName" value="Toml" />
             </plugin>
           </value>
         </entry>
@@ -1243,15 +1250,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key=".analysis_options">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
-              <option name="myPluginName" value="YAML" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
         <entry key=".classpath">
           <value>
             <plugin>
@@ -1285,6 +1283,70 @@
               <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
               <option name="myPluginName" value="Eclipse Interoperability" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Cargo.lock">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.toml.lang" />
+              <option name="myPluginName" value="Toml" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.fast-jar">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.jlink">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.jvm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.native">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Gopkg.lock">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.toml.lang" />
+              <option name="myPluginName" value="Toml" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Pipfile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.toml.lang" />
+              <option name="myPluginName" value="Toml" />
             </plugin>
           </value>
         </entry>
@@ -1405,49 +1467,14 @@
                       <FeaturePluginData displayName="BSP test" pluginName="Scala" pluginId="org.intellij.scala" />
                     </value>
                   </entry>
+                  <entry key="CargoCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Cargo" pluginName="Rust" pluginId="org.rust.lang" />
+                    </value>
+                  </entry>
                   <entry key="CompoundRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
-                    </value>
-                  </entry>
-                  <entry key="DartCommandLineRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Command Line App" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="DartRemoteDebugConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Remote Debug" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="DartTestRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Test" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="DartWebdevConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Web" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterBazelRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter (Bazel)" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterBazelTestConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter Test (Bazel)" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterTestConfigType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter Test" pluginName="Flutter" pluginId="io.flutter" />
                     </value>
                   </entry>
                   <entry key="GradleRunConfiguration">
@@ -1535,6 +1562,11 @@
                       <FeaturePluginData displayName="TestNG" pluginName="TestNG" pluginId="TestNG-J" />
                     </value>
                   </entry>
+                  <entry key="WasmPackCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="wasm-pack" pluginName="Rust" pluginId="org.rust.lang" />
+                    </value>
+                  </entry>
                   <entry key="XSLT">
                     <value>
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
@@ -1548,6 +1580,16 @@
                   <entry key="aws.lambda">
                     <value>
                       <FeaturePluginData displayName="AWS Lambda" pluginName="AWS Toolkit" pluginId="aws.toolkit" />
+                    </value>
+                  </entry>
+                  <entry key="docker-deploy">
+                    <value>
+                      <FeaturePluginData displayName="Docker" pluginName="IDEA CORE" pluginId="com.intellij" />
+                    </value>
+                  </entry>
+                  <entry key="nginx.configuration.type">
+                    <value>
+                      <FeaturePluginData displayName="nginx server" pluginName="nginx Support" pluginId="ideanginx9" />
                     </value>
                   </entry>
                   <entry key="uTestRunConfiguration">

@@ -2,12 +2,14 @@
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="HIGHLIGHT_SCOPE" value="true" />
+  </component>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="Source Code Pro" />
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
-    <option name="IS_WHITESPACES_SHOWN" value="true" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+    <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
 </application>
