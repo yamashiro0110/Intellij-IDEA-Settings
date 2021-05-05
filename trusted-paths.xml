@@ -3,6 +3,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/git/a8-2.0-note/app" />
+        <option value="$USER_HOME$/git/dataflow" />
       </list>
     </option>
   </component>
